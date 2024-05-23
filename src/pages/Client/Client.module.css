@@ -1,0 +1,307 @@
+.accessYourHealthcare {
+  margin: 0;
+  height: 10rem;
+  width: 61.188rem;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+  top:15rem;
+}
+.accessYourHealthcareAnywheWrapper {
+  width: 96.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 11.563rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: 4.375rem;
+  color: var(--neutral-white);
+  font-family: var(--font-poppins);
+}
+.rela1Icon {
+  width: 108.563rem;
+  height: 30rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 8rem;
+  right: -0.75rem;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.whatCanWe {
+  margin: 0;
+  position: relative;
+  font-size: 2.2rem;
+  font-weight: 700;
+  font-family: inherit;
+  right:2.5rem;
+  margin-top:20px;
+}
+.whatCanWeHelpYouWithTodaWrapper {
+  width: 91.813rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.notFindingWhat {
+  margin: 0;
+  width: 58.813rem;
+  position: relative;
+  font-size: 2.2rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notFindingWhatYouAreLookiWrapper {
+  width: 91.813rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+}
+.clientInner,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  position:relative;
+  flex: 1;
+  flex-direction: column;
+  gap: 3rem;
+  top:13rem;
+}
+.clientInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-42xl) var(--padding-7xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--not-selected-menu);
+  font-family: var(--font-poppins);
+}
+.aboutUs {
+  display: inline-block;
+  min-width: 4.313rem;
+  font-size:14px;
+}
+.aboutUs,
+.emergencyNum {
+  position: relative;
+  font-size:14px;
+}
+.privacyPolicy,
+.reviews,
+.termsOfUse {
+  position: relative;
+  display: inline-block;
+  min-width: 3.75rem;
+  font-size:14px;
+}
+.privacyPolicy,
+.termsOfUse {
+  min-width: 6.375rem;
+}
+.termsOfUse {
+  min-width: 6rem;
+}
+.items {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-20xl-8);
+  min-width: 46.625rem;
+  max-width: 100%;
+}
+.allRightsReserved {
+  position: relative;
+  text-align: right;
+  font-size:14px;
+  margin-left:28rem;
+}
+
+.component1 {
+  width: 15rem;
+  backdrop-filter: blur(4px);
+  justify-content: center;
+  padding: 1.175rem var(--padding-xl) 1.387rem var(--padding-2xl);
+  box-sizing: border-box;
+  position: relative;
+  white-space: nowrap;
+  left:300px;
+}
+
+.bottombar,
+.client {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.bottombar {
+  box-sizing: border-box;
+  align-items: flex-start;
+  position:relative;
+  width: 82rem;
+  border-top: 1px solid var(--color-gray-100);
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-3xl) 0 var(--padding-5xl);
+  max-width: 100%;
+  row-gap: 20px;
+  top:8rem;
+}
+
+.client {
+  width: 100vw;
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  bottom: 0;
+  overflow-y: scroll; 
+  overflow-x: hidden; 
+  background-color: var(--neutral-white);
+  flex-direction: column;
+  padding: 0 2.156rem 3.563rem 7.625rem;
+  gap: 5rem;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--roboto-regular-16-size);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-dm-sans);
+}
+
+.client::-webkit-scrollbar {
+  width: 0; 
+}
+
+.buttonShape {
+  height: 50px;
+  width: 230px;
+  position: absolute;
+  margin: 0;
+  bottom: 20px;
+  right: 90px;
+  border-radius: 16px;
+  background-color: var(--color-deepskyblue-100);
+  border:none;
+  align-items: center;
+}
+
+.submit{
+  font-family: var(--font-wix-madefor-text);
+  color: white;
+  position: relative;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  min-width: 6rem;
+  z-index: 1;
+  font-size:17px;
+  right:20px;
+}
+
+.buttonShape,
+.submit{
+  cursor: pointer;
+}
+
+
+.emergencyNum a,
+.privacyPolicy a,
+.termsOfUse a,
+.aboutUs a,
+.reviews a{
+  text-decoration: none; /* Remove underline */
+  color: black; /* Change text color */
+  cursor: pointer; /* Ensure cursor changes on hover */
+  font-size:14px;
+}
+
+
+@media screen and (max-width: 1250px) {
+  .frameParent {
+    gap: 3.75rem 7.563rem;
+  }
+  .clientInner {
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+  .items {
+    min-width: 100%;
+  }
+  .client {
+    gap: 3.938rem 7.875rem;
+    padding-left: var(--padding-42xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .accessYourHealthcare {
+    font-size: 3.5rem;
+  }
+  .accessYourHealthcareAnywheWrapper {
+    padding-bottom: 7.5rem;
+    box-sizing: border-box;
+  }
+  .notFindingWhat,
+  .whatCanWe {
+    font-size: var(--font-size-21xl);
+  }
+  .frameParent {
+    gap: 1.875rem 7.563rem;
+  }
+  .clientInner {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .items {
+    flex-wrap: wrap;
+    gap: 2.488rem 1.25rem;
+  }
+  .client {
+    gap: 1.938rem 7.875rem;
+    padding-left: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .accessYourHealthcare {
+    font-size: 2.625rem;
+  }
+  .notFindingWhat,
+  .whatCanWe {
+    font-size: var(--font-size-11xl);
+  }
+  .frameParent {
+    gap: 0.938rem 7.563rem;
+  }
+  .client {
+    gap: 1rem 7.875rem;
+  }
+}

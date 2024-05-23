@@ -1,0 +1,337 @@
+.welcomepage,
+.welcomepageInner,
+.sloganParent,
+.bodyParent,
+.bottombar {
+  height: 100vh;
+}
+
+
+.logoIcon {
+  height: 5.5rem;
+  width: 12.106rem;
+  position: relative;
+  object-fit: cover;
+  left: 10px;
+}
+
+.navBar,
+.navBar1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.navBar,
+.navBar1{
+  box-sizing: border-box;
+}
+
+.navBar,
+.navBar1 {
+  flex-direction: row;
+}
+.navBar1 {
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 0 0 1.288rem;
+  gap: var(--gap-xl);
+}
+
+.navBar {
+  width: 100%;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs-1) var(--padding-8xs-1) 0;
+}
+
+.medinteract {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: 8rem;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 600;
+  font-family: inherit;
+  max-width: 100%;
+  padding-top:0.5rem;
+ 
+}
+
+.logoName {
+  width: 100%;
+  height: 8.638rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  color: var(--color-white);
+  font-family: var(--font-merriweather-sans);
+}
+
+.slogan1 {
+  margin-bottom: -1rem;
+  margin: 0;
+  height: var(--gap-122xl);
+  flex: 1;
+  position: relative;
+  font-size: 2.5rem;
+  line-height: 5.313rem;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+
+}
+
+.guestSignUpLogIn {
+  align-self: stretch;
+  height: 5.538rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.description {
+  margin: 0;
+  align-self: stretch;
+  height: var(--padding-51xl);
+  position: relative;
+  font-size: 1.3rem;
+  font-weight: 100;
+  font-family: var(--font-tiro-telugu);
+  display: inline-block;
+  flex-shrink: 0;
+  padding-top: 0;
+ 
+}
+
+.body {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.supportButton {
+  flex-direction: row;
+  padding: 0 var(--padding-34xl);
+  box-sizing: border-box;
+}
+
+.bodyParent,
+.slogan,
+.supportButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.bodyParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 0.1rem;
+  padding-top: var(--gap-9xl);
+}
+
+.slogan {
+  width: 100%;
+  flex-direction: column;
+  padding: 0 0;
+  box-sizing: border-box;
+  position:fixed;
+  top: 25%;
+}
+
+.sloganParent,
+.welcomepage,
+.welcomepageInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+
+.sloganParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-19xl);
+  max-width: 100%;
+}
+
+
+.welcomepage,
+.welcomepageInner {
+  box-sizing: border-box;
+}
+.welcomepageInner {
+  width: 100%;
+  flex-direction: row;
+  padding: 0 3.5rem;
+  max-width: 100%;
+  text-align: left;
+  font-size: 4.375rem;
+  color: var(--color-white);
+  font-family: var(--font-ubuntu);
+}
+.welcomepage {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 0 0;
+  background-image: url(/public/welcomepage@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  letter-spacing: normal;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .logoName {
+    
+    box-sizing: border-box;
+    height: var(--gap-97xl);
+  }
+
+  .bodyParent {
+    gap: var(-padding-37xl) var(-padding-37xl);
+  }
+
+  .slogan{
+    padding: var(--padding-14xl-9) var(--bs-body-font-size) var(--padding-26xl);
+  }
+
+
+
+  .medinteract {
+    font-size: 4.75rem;
+  }
+
+
+  .welcomepageInner {
+    padding-left: var(--padding-9xl-1);
+    padding-right: var(--padding-9xl-1);
+    box-sizing: border-box;
+  }
+
+  .bottombar.items{
+   gap: var(--gap-11xs);
+  }
+}
+
+
+
+@media screen and (max-width: 1020px) {
+  .navBar1 {
+    flex-wrap: wrap;
+  }
+  .medinteract {
+    font-size: var(--font-size-51xl-3);
+  }
+  .slogan1 {
+    font-size: 2.5rem;
+    line-height: 2.25rem;
+  }
+  .slogan{
+      padding: var(--padding-14xl-9) var(--bs-body-font-size) var(--padding-26xl);
+    
+  }
+  
+  .bodyParent {
+    gap: var(--gap-5xs-8) var(--gap-43xl);
+    padding-top: var(--gap-34xl);
+  }
+  .description {
+    font-size: 1.2rem;
+  }
+  .supportButton {
+    padding-left: var(--padding-12xl-1);
+    padding-right: var(--padding-12xl-1);
+    box-sizing: border-box;
+  }
+  .items {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .bodyParent {
+    gap: var(--gap-5xs-8) var(--gap-43xl);
+    padding-top: var(--gap-34xl);
+  }
+  .items {
+    flex-wrap: wrap;
+  }
+  .sloganParent {
+    gap: 1.375rem 3.738rem;
+  }
+ 
+
+.sloganParent {
+  flex: 1;
+  flex-direction: column;
+
+  max-width: 100%;
+}
+}
+
+@media screen and (max-width: 450px) {
+  .aboutusParent {
+    gap: 1.344rem 0.188rem;
+  }
+  .medinteract {
+    font-size: 2.563rem;
+    padding-left: 0.2rem;
+  }
+  
+  .slogan1 {
+    font-size: 1.625rem;
+    line-height: 2.188rem;
+  }
+  .description {
+    font-size: 0.725rem;
+  }
+  .sloganParent {
+    gap: 1.788rem 2.738rem;
+  }
+}
+
+/*
+@media screen and (max-height: 970px) {
+  .welcomepageInner{
+    padding-top: var(--padding-51xl-3);
+  }
+
+  .slogan{
+    padding-top: var(--padding-9xl);
+  }
+
+  .sloganParent{
+    gap: var(--padding-51xl-3);
+  }
+
+ 
+}
+*/
+
+@media screen and (max-height: 600px) {
+  
+  .bodyParent {
+    flex-direction: column; /* Change to a column layout */
+  }
+  .sloganParent {
+    flex-direction: column; /* Change to a column layout */
+  }
+}

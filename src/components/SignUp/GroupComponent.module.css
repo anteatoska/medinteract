@@ -1,0 +1,397 @@
+.inputxhbazegmailcom input,
+.xhbazegmailcom input,
+.passwordInput input,
+.xhbazegmailcomWrapper input,
+.frameWrapper1 input,
+.div
+ {
+  border: none !important;
+  outline: none;
+}
+
+.name {
+  position: relative;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 3.269rem;
+  box-sizing: border-box;
+  padding-right: 0;
+}
+.nameInputContainer {
+  position:relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 var(--padding-2xs-4);
+}
+.xhesiBaze {
+  position: relative;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 6.513rem;
+  box-sizing: border-box;
+  padding-right: 0;
+}
+.inputxhbazegmailcom {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 var(--padding-2xs-4);
+}
+.passwordInputContainer {
+  align-self: stretch;
+  height: 0.125rem;
+  position: relative;
+  backdrop-filter: blur(6px);
+  border-top: 2px solid var(--color-midnightblue-200);
+  box-sizing: border-box;
+  width:50%;
+  height:50%;
+}
+.labelEmail,
+.nameInputContainerParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.labelEmail {
+  gap: var(--gap-8xs-1);
+  color: var(--color-darkslategray-100);
+}
+.nameInputContainerParent {
+  padding: 0 var(--padding-7xs) 0 0;
+  gap: var(--gap-3xs-4);
+}
+.email {
+  position: relative;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 3.138rem;
+  box-sizing: border-box;
+  padding-right: 0;
+}
+.emailWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 var(--padding-2xs-4);
+}
+.xhbazegmailcom {
+  position: relative;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  white-space: nowrap;
+  padding-right: 0;
+}
+.xhbazegmailcomWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 var(--padding-2xs-4);
+}
+.frameChild {
+  align-self: stretch;
+  height: 0.125rem;
+  position: relative;
+  backdrop-filter: blur(6px);
+  border-top: 2px solid var(--color-midnightblue-200);
+  box-sizing: border-box;
+  width:50%;
+  height:50%;
+}
+.frameContainer,
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  gap: var(--gap-8xs-2);
+  color: var(--color-darkslategray-100);
+}
+.frameContainer {
+  padding: 0 var(--padding-7xs) 0 0;
+  gap: var(--gap-3xs-4);
+}
+
+.inputpasswordParent{
+
+  width:50%;
+  height:50%;
+}
+.password {
+  position: relative;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 5.644rem;
+}
+.inputpassword {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 var(--padding-2xs-4);
+}
+
+.frameWrapper1 {
+  width: 10.575rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs-2);
+  box-sizing: border-box;
+  
+}
+
+.frameParent1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.frameItem,
+.frameWrapper {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-2xs-4);
+  max-width: 100%;
+}
+.frameItem {
+  height: 0.125rem;
+  position: relative;
+  backdrop-filter: blur(6px);
+  border-top: 2px solid var(--color-midnightblue-200);
+}
+.frameGroup,
+.inputpasswordParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-9);
+  max-width: 100%;
+}
+.frameGroup {
+  height: 14.375rem;
+  padding: 0 0 var(--padding-67xl-2);
+  box-sizing: border-box;
+  gap: var(--gap-13xl-6);
+}
+.phoneNumber {
+  position: relative;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  padding-right: 0;
+}
+.phoneNumberWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 var(--padding-2xs-4);
+}
+.frameInner {
+  width:50%;
+  position: relative;
+  top: 1.375rem;
+  left: 0;
+  backdrop-filter: blur(6px);
+  border-top: 2px solid var(--color-midnightblue-200);
+  box-sizing: border-box;
+
+}
+.div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  display: inline-block;
+  white-space: nowrap;
+  min-width: 6.513rem;
+  box-sizing: border-box;
+  padding-right: 0;
+}
+.lineParent {
+  align-self: stretch;
+  height: 1.5rem;
+  position: relative;
+  color: var(--color-darkslategray-100);
+}
+.frameParent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) var(--padding-4xs-5) 0;
+  gap: var(--gap-5xl-2);
+  flex-shrink: 0;
+}
+.choseYourRole {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+}
+.caretupInstance {
+  width: 12.65rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 var(--padding-smi-4);
+  box-sizing: border-box;
+}
+.defaultSelectionFormselect {
+  align-self: stretch;
+  font-family: var(--roboto-regular-16);
+  font-size: var(--roboto-regular-16-size);
+  color: var(--grey-grey-45);
+}
+.firstSelection {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 1.25rem;
+}
+.selectionItem {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-base);
+}
+.firstSelection1 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 1.25rem;
+}
+.selectionItem1 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-base);
+}
+.firstSelection2 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 1.25rem;
+}
+.lists,
+.selectionItem2 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.selectionItem2 {
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-white);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs) var(--padding-base);
+}
+.lists {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-9xs);
+  gap: var(--gap-9xs);
+}
+.selectionList {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-white);
+  border: 1px solid var(--grey-grey-45);
+  padding: var(--padding-5xs) 0;
+}
+.caretupInstanceParent,
+.dropDownBox,
+.frameParent,
+.selectionList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dropDownBox {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  gap: var(--gap-5xs);
+  color: var(--grey-grey-10);
+  font-family: var(--roboto-regular-16);
+}
+
+.specializationInput input {
+  border: none !important;
+  outline: none;
+  font-size:14px;
+}
+
+.caretupInstanceParent,
+.frameParent {
+  box-sizing: border-box;
+}
+.caretupInstanceParent {
+  position:relative;
+  margin-left: -0.125rem;
+  width: 15rem;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-5xl);
+  flex-shrink: 0;
+  z-index:1;
+}
+.frameParent {
+  position: absolute;
+  top: 8.25rem;
+  left: 6.125rem;
+  width: 32.125rem;
+  height: auto;
+  padding: var(--padding-122xl-8) 0 var(--padding-164xl-9);
+  gap: var(--gap-5xl-1);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--roboto-regular-16-size);
+  font-family: var(--font-inter);
+}
+
+
+@media screen and (max-width: 450px) {
+  .frameParent1 {
+    flex-wrap: wrap;
+  }
+  .frameGroup,
+  .frameParent {
+    height: auto;
+  }
+}

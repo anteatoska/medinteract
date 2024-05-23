@@ -1,0 +1,280 @@
+.iconStethoscope {
+  height: 4rem;
+  width: 4rem;
+  position: relative;
+  margin: auto;
+}
+.iconStethoscopeWrapper {
+  width: 18.35rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.bookAnAppointment {
+  align-self: stretch;
+  height: 35%; 
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 70%; 
+  margin-bottom: 0.01rem; 
+}
+
+.bookAnAppointment1 {
+  flex: 1;
+  position: relative;
+  font-size: 60%; 
+  align-items:center;
+}
+
+.bookAnAppointmentWithOurPWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: center; 
+  padding: 0 var(--padding-base); 
+  font-size: var(--menu-text-size);
+  color: var(--color-darkslategray-300);
+}
+
+.bookAnAppointmentParent,
+.bookappointement {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 100%; 
+  justify-content: center;
+}
+
+.bookAnAppointmentParent {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+}
+
+.bookappointement {
+  width: 18rem;
+  height:25rem;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-deepskyblue-200);
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-30xl) var(--padding-19xl);
+  box-sizing: border-box;
+  gap: var(--gap-4xl);
+  align-items:center;
+  cursor: pointer;
+}
+.groupIcon {
+  height: 4rem;
+  width: 4rem;
+  position: relative;
+  margin: auto;
+
+}
+.groupWrapper {
+  height: 8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+.accessYouHistory,
+.gainInstantAccess {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.accessYouHistory {
+  align-self: stretch;
+  height: 35%; 
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 70%; 
+  margin-bottom: 0.01rem; 
+
+}
+.gainInstantAccess {
+  flex: 1;
+  position: relative;
+  font-size: 45%; 
+  align-items:center;
+  color: var(--color-darkslategray-300);
+}
+
+.accessYouHistoryParent{
+  align-self: stretch;
+  gap: var(--gap-5xs);
+}
+.accessYouHistoryParent,
+.medicalhistory {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 100%; 
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.medicalhistory {
+  width: 18rem;
+  height:25rem;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(#fff, #fff), #52b2e2;
+  border: 3px solid var(--color-deepskyblue-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-start;
+  padding: var(--padding-30xl) var(--padding-19xl);
+  gap: var(--gap-4xl);
+  align-items:center;
+  cursor: pointer;
+}
+
+
+.healthiconsnutritionOutline {
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+  margin-top: 0.7rem; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+.healthiconsnutritionOutlineWrapper {
+  width: 10rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; 
+  justify-content: center;
+}
+.requestNutritionAdvice,
+.unlockPersonalizedNutrition {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.requestNutritionAdvice {
+  height: 22%; 
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 70%; 
+  align-items: flex-start; 
+  margin-top:2rem;
+
+}
+.unlockPersonalizedNutrition {
+  flex: 1;
+  position: relative;
+  font-size: 60%; 
+  align-items: flex-start; 
+}
+.unlockPersonalizedNutritionWrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: center; 
+  padding: 0 var(--padding-base); 
+  font-size: var(--menu-text-size);
+  color: var(--color-darkslategray-300);
+
+}
+.nutrition {
+  width: 18rem;
+  height:25rem;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-deepskyblue-200);
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-30xl) var(--padding-19xl);
+  box-sizing: border-box;
+  gap: var(--gap-4xl);
+  align-items:center;
+ cursor: pointer;
+}
+
+
+.services,
+.servicesWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  max-width: 98.5%;
+}
+.services {
+  flex: 1;
+  overflow-x: scroll; 
+  overflow-y: hidden;
+  gap: 3rem;
+}
+
+.services::-webkit-scrollbar {
+  width: 0; 
+}
+
+.servicesWrapper {
+  width: 80rem;
+  padding: 0 var(--padding-50xl) 0 var(--padding-13xl); 
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-teal-200);
+  font-family: var(--font-poppins);
+}
+
+
+@media screen and (max-width: 1250px) {
+  .servicesWrapper {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .bookappointement,
+  .medicalhistory,
+  .nutrition {
+    padding-top: var(--padding-13xl);
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bookAnAppointment {
+    font-size: var(--menu-text-size);
+  }
+  .bookAnAppointment1 {
+    font-size: var(--roboto-regular-16-size);
+  }
+  .accessYouHistory {
+    font-size: var(--menu-text-size);
+  }
+  .gainInstantAccess {
+    font-size: var(--roboto-regular-16-size);
+  }
+  .requestNutritionAdvice {
+    font-size: var(--menu-text-size);
+  }
+  .unlockPersonalizedNutrition {
+    font-size: var(--roboto-regular-16-size);
+  }
+}

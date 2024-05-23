@@ -1,0 +1,41 @@
+.main-container{
+    position: relative;
+    height: 100vh;
+    background-color: white;
+    border: 1px solid rgb(216, 216, 216);
+    width: 90%;
+    margin-left:2rem;
+}
+
+.chat{
+    width: 96%;
+    border-radius: 10px;
+    background-color: white;
+    border: 0.3px solid rgb(219, 219, 219);
+    box-shadow: 1px 1px #e7e7e7;
+    align-self: center;
+    cursor: pointer;
+}
+
+.user-name{
+    font-family: var(--font-poppins) !important;
+    font-size: 0.85rem !important;
+    color: #2d616e;
+}
+
+.chat-content{
+    font-family: var(--font-poppins) !important;
+    font-size: 0.7rem !important;
+    color: #898989;
+
+}
+
+.chat-time{
+    font-family: var(--font-poppins) !important;
+    font-size: 0.8rem !important;
+    color: #388192; 
+}
+
+.chat-container{
+    padding-top: 10px;
+}

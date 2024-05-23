@@ -1,0 +1,36 @@
+  .logo-container{
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    cursor: pointer;
+    margin-right: 3.3rem;
+  }
+
+  .logo{
+    width: 1.4rem!important; /* Set the initial size of the image */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .logoName{
+    color: #4c869a;
+    font-family: var(--font-poppins);
+    font-size: 1.2rem;
+    font-weight: 500;
+    align-content: center;
+  }
+  
+  
+
+  .pageIndicator{
+    color: #4c869a;
+    font-family: var(--font-poppins);
+    font-weight: 200;
+    font-size: 1.5rem!important;
+  
+  }
+
+  .box-item{
+    color: #4c869a;
+  }
+
+ 

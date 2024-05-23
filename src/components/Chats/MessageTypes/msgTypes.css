@@ -1,0 +1,39 @@
+.msg-box{
+    padding: 3px;
+    border-radius: 5px;
+    width: max-content;
+    
+
+}
+
+.media-msg-box{
+    padding: 3px;
+    border-radius: 5px;
+    width: max-content;
+
+}
+
+.msg-text{
+    font-family: var(font-poppins);
+    font-size: 0.8rem!important;
+}
+
+.timestamp{
+    padding-top: 2px;
+    font-family: var(font-poppins);
+    font-size: 0.6rem!important;
+}
+
+.msg-img{
+    max-height: 200px;
+    border-radius: 10px;
+  
+    
+}
+
+.msg-icon{
+    width: 20px;
+    height: 20px;
+    color:#2d616e ;
+}
+
